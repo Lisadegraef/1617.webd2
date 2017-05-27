@@ -1,6 +1,6 @@
 body {
     background-color: #FFFFF3;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 1.4rem;
     height: 100%;
     margin: 0;
@@ -42,25 +42,52 @@ header nav > ul > li > a:hover {
     color:#F5EB27;
 }
 
-/*BODY*/
-.OD { 
-    height: 620px;
-    width: 900px;
-    padding-top: 20px;
-    overflow: scroll;
-    margin: auto;
+ .nav-item--active > a {
+    color: #F5EB27;
 }
 
-/*img.Ourdesigns {
-    display: block;
-    width: 40%;
-    margin-left: 275px;
-    padding-bottom: 20px;
-}*/
+/*MAIN*/
 
+.google{
+    float: right;
+}
 
+.tekst {
+    margin: 10px;
+    padding-left: 26px;
+}
 
-/*FOOTER______________________*/
+.tekst a {
+    text-decoration: none;
+    color: #000;
+}
+
+.form1 {
+    margin: 10px;
+    padding-left: 26px;
+}
+
+.form {
+    float: left;
+    margin-top: 10px;
+    background-color: #FB481D;
+    width:50%;
+    height: 450px;
+}
+
+.form1 input {
+    width: 500px; 
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.form1 textarea { 
+    width: 500px; 
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/*FOOTER*/
 
 .footer-wrapper {
     color: #000;
@@ -79,12 +106,7 @@ header nav > ul > li > a:hover {
 .footer a:hover {
     color: #F5EB27;
 }
-.footer a:focus,
 
 .grid__bp0-column-8 {
     margin-left: 350px;
-}
-
-.nav-item--active > a {
-    color: #F5EB27;
 }

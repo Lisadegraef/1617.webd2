@@ -1,6 +1,6 @@
 body {
     background-color: #FFFFF3;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 1.4rem;
     height: 100%;
     margin: 0;
@@ -45,20 +45,36 @@ header nav > ul > li > a:hover {
 /*BODY*/
 img.afbeelding {
     border: 10px double #000;
-    width: 180px ;
-    margin-left: 39px;
+    width: 180px;
+    margin-left: 75px;
     margin-bottom: 30px;
 
 }
 
-.about {
-    width: 900px;
-    padding-top: 20px;
-    margin: auto;
+.col-4 > about {
+    padding-left: 65px;
+
+}
+.tekst {
+    padding-left: 110px;
 }
 
-.tekst {
-    padding-bottom: 20px;
+.tekst1 {
+    padding-left: 103px;
+}
+
+.tekst2 {
+    padding-left: 93px;
+}
+
+.align {
+    text-align: left;
+}
+.titel {
+    font-size: 23px;
+    padding-left: 80px;
+    margin-right: 60px;
+    padding-right: 115px;
 }
 
 /*FOOTER______________________*/
@@ -80,7 +96,6 @@ img.afbeelding {
 .footer a:hover {
     color: #F5EB27;
 }
-.footer a:focus,
 
 .grid__bp0-column-8 {
     margin-left: 350px;

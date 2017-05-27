@@ -1,6 +1,6 @@
 body {
     background-color: #FFFFF3;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 1.4rem;
     height: 100%;
     margin: 0;
@@ -42,7 +42,35 @@ header nav > ul > li > a:hover {
     color:#F5EB27;
 }
 
+.nav-item--active > a {
+    color: #F5EB27;
+}
+
 /*BODY*/
+
+.picture {
+    overflow: hidden;
+    text-align: center;
+}
+
+.picture > img {
+    width: 60%;
+    height: auto;
+    object-fit: contain;
+    text-align: center;
+}
+
+.left {
+    margin-left: 160px;
+}
+
+.right {
+    margin-right: 160px;
+}
+.folder {
+    width: 83%;
+    padding-left: 190px;
+}
 
 /*FOOTER______________________*/
 
@@ -63,24 +91,7 @@ header nav > ul > li > a:hover {
 .footer a:hover {
     color: #F5EB27;
 }
-.footer a:focus,
 
 .grid__bp0-column-8 {
     margin-left: 350px;
-}
-
-.picture {
-    overflow: hidden;
-    text-align: center;
-}
-
-.picture > img {
-    width: 80%;
-    height: auto;
-    object-fit: contain;
-    text-align: center;
-}
-
-.nav-item--active > a {
-    color: #F5EB27;
 }

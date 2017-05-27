@@ -1,6 +1,6 @@
 body {
     background-color: #FFFFF3;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 1.4rem;
     height: 100%;
     margin: 0;
@@ -42,6 +42,9 @@ header nav > ul > li > a:hover {
     color:#F5EB27;
 }
 
+.nav-item--active > a {
+    color: #F5EB27;
+}
 
 /*HOME*/
 
@@ -51,7 +54,7 @@ header nav > ul > li > a:hover {
 }
 
 .picture > img {
-    width: 50%;
+    width: 40%;
     height: auto;
     object-fit: contain;
     text-align: center;
@@ -82,7 +85,6 @@ header nav > ul > li > a:hover {
 .grid__bp0-column-8 {
     margin-left: 350px;
 }
-
 
 
 
