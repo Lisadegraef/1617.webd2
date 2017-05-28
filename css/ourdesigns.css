@@ -95,3 +95,14 @@ header nav > ul > li > a:hover {
 .grid__bp0-column-8 {
     margin-left: 350px;
 }
+
+img.media1 {
+    float: right;
+    width: 10px;
+    margin-right: 305px;
+}
+
+img.media2 {
+    float: right;
+    width: 10px;
+}

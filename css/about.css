@@ -104,3 +104,13 @@ img.afbeelding {
 .nav-item--active > a {
     color: #F5EB27;
 }
+img.media1 {
+    float: right;
+    width: 10px;
+    margin-right: 305px;
+}
+
+img.media2 {
+    float: right;
+    width: 10px;
+}
